@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eevee's Place</title>
+  <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Rancho|Sacramento" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div align="center">
+      <header>
+      <h1>Welcome To Eevee's Place!</h1>
+    <img src="images/eevee1.JPG" width="130">
+    </header>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home<i class="fas fa-home"></i></a></li>
+        <div class="dropdown">
+          <button class="dropbtn"><li><a>Pokemon</a></button>
+            <div class="dropdown-content">
+        <ul><li><a href="flareon.html">Flareon</a></li>
+                <li><a href="jolteon.html">Jolteon</a></li>
+                  <li><a href="vaporeon.html">Vaporeon</a></li>
+                    <li><a href="umbreon.html">Umbreon</a></li>
+                      <li><a href="espeon.html">Espeon</a></li>
+                    <li><a href="leafeon.html">Leafeon</a></li>
+                  <li><a href="sylveon.html">Sylveon</a></li></ul></li>
+                </div>
+              </div>
+              <li><a href="contactus.html">Contact Us<i class="fas fa-laptop"></i></a></li>
+      <li><a href="member.html">Become A Member<i class="fas fa-users"></i></a></li>
+    </ul>
+  </nav>
+   <main>
+  <section class="one"><p style="color: #43D1AF;">Hey There Visitor! We hope you're enjoying your time on our site.
+  Have any burning questions or comments about Eevee's Place? 
+  Feel free to contact us! We always look forward to your feedback ^_^
+  </p>
+  </section>
+  <section class="two"><div class="form-style-6">
+<h1>Contact Us</h1>
+<form name="us">
+<input type="text" name="field1" required placeholder="Your Name" />
+<input type="email" email="field2" required placeholder="Email Address" />
+<textarea name="field3" required placeholder="Type your Message"></textarea>
+<input type="submit" value="Send" onclick="contact();"/>
+</form>
+</div></section>
+</main>
+<script>
+    function contact(){
+        alert("Your message has been submitted. Thank You For Contacting us!");
+    }
+</script>
+<footer>
+  <p>&copy; Copyright 2019 Eevee's Place</p>
+</footer>
+</body>
+</html>
